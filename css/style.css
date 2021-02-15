@@ -42,14 +42,21 @@ body {
 
 /* heder image */
 .header-image {
-    height:400px;    
-    /* background-color: #F0E68C; */    
+    height: 350px;
+    position: relative;               
 }
 
 .header-image img{
+    
     object-fit: cover;
     width: 100%;
-    height:100%;
+    height: 100%;    
+}
+
+.header-text {   
+       
+    position: absolute;    
+    bottom: 0px;    
 }
 
 
