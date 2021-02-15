@@ -40,16 +40,19 @@ body {
     color: #A9A9A9;
 }
 
-
-
-
-
 /* heder image */
 .header-image {
-    height:300px;
-    background-color: #F0E68C;
-    margin-top: 2%;
+    height:400px;    
+    /* background-color: #F0E68C; */    
 }
+
+.header-image img{
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+}
+
+
 
 
 /* MAIN */
