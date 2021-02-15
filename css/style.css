@@ -33,16 +33,19 @@ body {
 
 .menu li {
     display: inline-block;
+    padding-right: 20px;
 }
 
 .menu li a{
     text-decoration: none;
     color: #A9A9A9;
+    
 }
 
 /* heder image */
 .header-image {
     height: 400px;
+    margin:20px 0;
     position: relative;               
 }
 
@@ -59,8 +62,9 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-
 }
+
+/* header text */
 
 .header-text {          
     position: absolute; 
@@ -79,21 +83,14 @@ body {
     color:white;
 }
 
-
-
-
-
 /* MAIN */
 
-main {
-    margin-top: 2%;
-    background-color: #1E90FF;    
+.grey-text {
+    color:#A9A9A9;
+    font-size: 15px;
 }
 
-.main-top-row {
-    height:50px;
-    background-color:#87CEFA;
-}
+
 
 .clearfix::after{
     content:"";
