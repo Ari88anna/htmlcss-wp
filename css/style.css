@@ -21,17 +21,31 @@ body {
 /* HEADER */
 
 /* logo */
-.logo{
+.logo {
     height: 50px;
 }
 
 /* navigation menu */
-nav {
-    height:50px;
-    background-color: #DA70D6;
+.menu {
+    list-style-type:none;
+    padding: 20px 0;
 }
 
-.header-image{
+.menu li {
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+
+
+
+
+/* heder image */
+.header-image {
     height:300px;
     background-color: #F0E68C;
     margin-top: 2%;
